@@ -26,4 +26,39 @@
 
                           }
                           
+ b2 : kết nối database để lấy dữ liệu và display lên web 
  
+                 protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+                             response.setContentType("text/html;charset=UTF-8");
+                             PrintWriter out = response.getWriter();
+                             out.println("<!DOCTYPE html>");
+                             out.println("<html>");
+                             out.println("<head>");
+                             out.println("<title>Loại sữa</title>");
+                             out.println("</head>");
+                             out.println("<body>");
+                             try {
+                              Connection ketNoi = CSDL.getKetNoi();
+                              Statement stm = ketNoi.createStatement();
+                              ResultSet rs = stm.executeQuery("select * from loai_sua");
+                              out.println("<table border='1'>");
+                              out.println("<tr>");
+                              out.println("<th>Mã loại</th>");
+                              out.println("<th>Tên loại</th>");
+                              out.println("</tr>");
+                              while(rs.next()) {
+                               out.println("<tr>");
+                               out.println("<td>"+rs.getString("ma_loai_sua")+"</td>");
+                               out.println("<td>"+rs.getString("ten_loai")+"</td>");
+                               out.println("</tr>");
+                              }
+                              out.println("</table>");
+                              ketNoi.close();
+                             } catch (ClassNotFoundException | SQLException e) {
+                              e.printStackTrace();
+                             }
+
+                             out.println("</body>");
+                             out.println("</html>");
+                            }
+
