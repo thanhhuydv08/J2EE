@@ -26,3 +26,9 @@ Các chương trình hõ trợ jboss tool, spring tool, glassfish tool
                            - browser cho các trình duyệt opera. chrome......fire...
 --- framework : bootstrap vd quảng cáo
    JS : lập trình cho trang web 
+================================================Xây dựng web site===========================================
+1. Cấu hình webserver    click thanh cong cụ server -> click mới - trỏ tới folder tom cat đã download vd : NGUYEN THANH HUYB\apache-tomcat-9.0.21 , nho clear cac tomcat cu di nhe va nho name tomcat tao s
+2. Tạo dynamic web project  chu y chọ tao file html trong backage webconten nhe.
+3. Tạo trang html trang (web content) 
+
+
