@@ -7,3 +7,17 @@ Các chương trình hõ trợ jboss tool, spring tool, glassfish tool
 Ứng dụng web 
     + Web tĩnh html-css-jscript
     + Web động : php (apache),java (tomcat) ,c# (ies), database
+=============== trang html========================
+<! Doctype html>
+<html>
+    <head>
+    ....css/js trong phần này
+     </head>
+     <body>
+     ..... nội dung hiển thị trang web
+     </body>
+</html>
+
+2- ghi chú :
+   html : hiển thị thông tin
+   css : cách hiển thị
