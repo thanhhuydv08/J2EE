@@ -20,4 +20,9 @@ Các chương trình hõ trợ jboss tool, spring tool, glassfish tool
 
 2- ghi chú :
    html : hiển thị thông tin
-   css : cách hiển thị
+   css : cách hiển thị {   - inline style : định dạng cùng dòng , gửi cả định dạng -> nhược
+                           - intenal style sheet : định dạng cho 1 trang
+                           - external style sheet : định dạng trong site , nhìu trang
+                           - browser cho các trình duyệt opera. chrome......fire...
+--- framework : bootstrap vd quảng cáo
+   JS : lập trình cho trang web 
