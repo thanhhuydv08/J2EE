@@ -1,2 +1,29 @@
  là lớp giao tiếp lập trình phía máy chủ
  servlet = javacoce + html ---------------------->html
+ 
+ b1 : tao project mới -> ko tao file html nữa dùng java resource để tao html -> new package -> servlet : chú ý 
+       phần url maping ta thêm /"tên đặt".html mở file class ta thấy các overider 
+         ------> tại phần doGet là phần chúng ta tạo view lên 
+                    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+                           // TODO Auto-generated method stub
+                          //	response.getWriter().append("Served at: ").append(request.getContextPath());
+
+                           /*
+                            *  tạo form html từ code java thông qua html
+                            */
+                           response.setContentType("charset=UTF-8");// bắt buộc để tạo font việt
+                           PrintWriter out = response.getWriter();
+                           //out.println("text/c");
+                           out.println("<!DOCTYPE html>");
+                           out.println("<html>");
+                           out.println("<head>");
+                           out.println("<title>Xin chào</title>");
+                           out.println("</head>");
+                           out.println("<body>");
+                           out.println("<h1> Xin chào code html bằng java! </h1>");
+                           out.println("</body>");
+                           out.println("</html>");
+
+                          }
+                          
+ 
