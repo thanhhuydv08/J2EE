@@ -11,7 +11,7 @@
                            /*
                             *  tạo form html từ code java thông qua html
                             */
-                           response.setContentType("charset=UTF-8");// bắt buộc để tạo font việt
+                           response.setContentType("text/html;charset=UTF-8");// bắt buộc để tạo font việt
                            PrintWriter out = response.getWriter();
                            //out.println("text/c");
                            out.println("<!DOCTYPE html>");
