@@ -1,5 +1,6 @@
  là lớp giao tiếp lập trình phía máy chủ
- servlet = javacoce + html ---------------------->html
+ - servlet = javacoce + html ---------------------->html
+ - muốn kết nối database mysql thi copy thư viện vào lib của WebConten->WEB_INF
  
  b1 : tao project mới -> ko tao file html nữa dùng java resource để tao html -> new package -> servlet : chú ý 
        phần url maping ta thêm /"tên đặt".html mở file class ta thấy các overider 
