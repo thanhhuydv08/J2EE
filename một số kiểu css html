@@ -1,0 +1,3 @@
+<html style="font-size: 20px"> -> ép font của web đưa về 20 px nếu có fghi đề thì chỉ mình nó thay đôit
+  <table border="1"  style="font-size: 15px;font-style: italic;"> -> 1 style có gồn nhiều css về kích cỡ font, kiểu font, font-weight thể hiện in đậm hay thường
+  
